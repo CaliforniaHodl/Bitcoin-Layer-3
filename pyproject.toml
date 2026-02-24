@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bitcoin-l3"
+version = "0.1.0"
+description = "Bitcoin L3 — anchor document checksums to Bitcoin via OP_RETURN. Zero external dependencies."
+requires-python = ">=3.11"
+license = "MIT"
+authors = []
+keywords = ["bitcoin", "layer3", "anchoring", "pfm", "op-return"]
+dependencies = []  # Zero external dependencies — format engine is internal
+
+[tool.setuptools.packages.find]
+include = ["l3*"]
+
+[project.scripts]
+l3 = "l3.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+p2p = ["websockets>=12.0", "secp256k1"]
+veilcloud = ["cryptography>=41.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

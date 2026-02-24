@@ -1,0 +1,15 @@
+#!PFM/1.0
+#@meta
+id: a062e391-980d-447b-8773-0808cdf2c118
+agent: e2e-test
+created: 2026-02-24T21:23:28.837016+00:00
+checksum: d21f91e335afd9bfa328c80e315b568029fc83023fcdaaf4cb4a8f5e6175e142
+anchor_txid: ad5446fc215b284b139cd1f9ff49261d0259168fddfea3444e96ba71b78dd768
+anchor_network: regtest
+anchor_hash: d21f91e335afd9bfa328c80e315b568029fc83023fcdaaf4cb4a8f5e6175e142
+anchor_ts: 2026-02-24T21:27:11.349743+00:00
+#@index
+content 448 52
+#@content
+Hello from Bitcoin L3 -- first E2E test on regtest.
+#!END

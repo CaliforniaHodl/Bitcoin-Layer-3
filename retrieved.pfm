@@ -1,0 +1,11 @@
+#!PFM/1.0
+#@meta
+id: a062e391-980d-447b-8773-0808cdf2c118
+agent: e2e-test
+created: 2026-02-24T21:23:28.837016+00:00
+checksum: d21f91e335afd9bfa328c80e315b568029fc83023fcdaaf4cb4a8f5e6175e142
+#@index
+content 224 52
+#@content
+Hello from Bitcoin L3 -- first E2E test on regtest.
+#!END
